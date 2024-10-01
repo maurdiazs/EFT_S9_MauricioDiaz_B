@@ -6,9 +6,10 @@ import java.util.Optional;
     
 public interface OrdenCompraService {
     List<OrdenCompra> getAllOrdenesCompra();
-    Optional<OrdenCompra> getOrdenComprayId(Long id);
+    Optional<OrdenCompra> getOrdenCompraById(Long id);
     OrdenCompra createOrdenCompra(OrdenCompra ordenCompra);
     OrdenCompra updateOrdenCompra(Long id,OrdenCompra ordenCompra);
     void deleteOrdenCompra(Long id);
+    
     
 } 
